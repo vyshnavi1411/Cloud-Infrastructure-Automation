@@ -85,7 +85,6 @@ pipeline {
             }
         }
     }
-
     post {
         always {
             sh 'rm -f dynamic_inventory.ini'
