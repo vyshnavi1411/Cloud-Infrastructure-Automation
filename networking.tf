@@ -12,7 +12,7 @@ terraform {
     }
   }
 backend "s3" {
-  bucket         = "devops-automation-project-vysh"
+  bucket         = "devops-automation-state-174302433492"
   key            = "terraform.tfstate"
   region         = "us-east-1"
   use_lockfile = true
