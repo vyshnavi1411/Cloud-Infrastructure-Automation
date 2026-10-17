@@ -10,7 +10,7 @@ provider "aws" {
     region = "us-east-1"
 }
 resource "aws_s3_bucket" "s3_remote_backend" {
-    bucket = "devops-automation-project-vysh"
+    bucket = "devops-automation-state-174302433492"
     lifecycle {
       prevent_destroy = false
     }
