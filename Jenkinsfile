@@ -5,7 +5,7 @@ pipeline {
         TF_IN_AUTOMATION = 'true'
         TF_CLI_ARGS = '-no-color'
         AWS_DEFAULT_REGION = 'us-east-1'
-        TF_CLI_CONFIG_FILE = credentials('Vyshh')
+        TF_CLI_CONFIG_FILE = credentials('Vyszz')
         PATH = "/usr/local/bin:/opt/homebrew/bin:/Users/vyshu/Library/Python/3.12/bin:${PATH}"
     }
 
